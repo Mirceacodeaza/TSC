@@ -36,17 +36,17 @@ Dispozitivul este alimentat de o baterie Li-Po de 3.7V, 2500 mAh.
 Starea bateriei este monitorizată de modulul MAX17048G+T10, care oferă informații despre nivelul de încărcare și starea generală a acumulatorului.
 Profil de Consum Estimat
 
-În activitate cu Wi-Fi și e-paper: aproximativ 150 mA
-În standby cu ecran static și fără activitate radio: aproximativ 10 mA
-În deep sleep: peste 50 µA
+În activitate cu Wi-Fi și e-paper: aproximativ 150 mA.
+În standby cu ecran static și fără activitate radio: aproximativ 10 mA.
+În deep sleep: peste 50 µA.
 Autonomia medie estimată este de aproximativ 250 de ore la un consum de 10 mA.
 
 Alocarea Pinilor ESP32-C6
-E-paper Display: IO12, IO11, IO5, IO4 – SPI (control și resetare)
-Senzor BME688: IO8, IO10 – I2C (partajat cu RTC)
-Card SD: IO7 – SPI (stocare externă)
-Modul RTC: IO8, IO10 – I2C (ceas în timp real)
-Serial USB: IO16, IO17 – UART (programare și depanare)
+E-paper Display: IO12, IO11, IO5, IO4 – SPI (control și resetare).
+Senzor BME688: IO8, IO10 – I2C (partajat cu RTC).
+Card SD: IO7 – SPI (stocare externă).
+Modul RTC: IO8, IO10 – I2C (ceas în timp real).
+Serial USB: IO16, IO17 – UART (programare și depanare).
 
 Observații de Proiectare
 
